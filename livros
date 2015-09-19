@@ -1,0 +1,36 @@
+#include <iostream>
+
+using namespace std;
+
+int main() //sempre assim
+{
+    int livro;
+    float a,b;
+    do
+    {
+        cout << "\n Digite a quantidade de livros"<<endl;
+        cin >> livro;
+    }
+    while(livro <=0);// Ponto e virgula no "do while"
+
+        a = livro *0.25 + 7,5; // Ponto e virgula no final de cada lina de código
+        b = livro * 0.5 + 1.5; // Ponto e virgula
+
+    if(a<b)// teste ou condição
+         cout<<" Plano A "<< a <<endl; //operação a ser feita
+
+    else{ // caso a>b
+          // não precisa digitar “else a>b"
+          // primeiro o teste e feito em a<b caso o resultado não
+          // seja verdadeiro o programa pula
+          // o que está escrito embaixo e vai direto para o "else"
+
+
+          cout<<" Plano B "<< b <<endl; //operação a ser feita
+        }
+
+
+// if e sempre assim " if( teste ou condição) { operação a ser feita   }  " nunca " if {}"
+
+    return 0;
+}// fecha com chave.
