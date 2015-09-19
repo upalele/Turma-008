@@ -1,0 +1,23 @@
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+int main(int argc, char** argv)
+{
+	float termo, soma, qnt;
+	soma=0;
+	
+	while (termo!=0)
+	      {
+                cout<<"Entre com o termo: "<<endl;
+                cin>>termo;
+                soma=soma+termo;
+                if (termo>0)
+                {
+                    qnt=qnt+1;
+				}
+		  }
+		  
+	cout<<"Soma: "<<soma<<" Qnt. de termos: "<<qnt<<endl;
+	return 0;
+}
